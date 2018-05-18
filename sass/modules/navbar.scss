@@ -1,0 +1,12 @@
+nav {
+  position: fixed !important;
+  z-index: 2;
+  width: 100vw;
+  font-size: 1.15rem;
+  .luxbar-navigation {
+    justify-content: center;
+  }
+  .luxbar-menu-right .luxbar-header {
+    margin-right: 0;
+  }
+}

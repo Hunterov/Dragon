@@ -1,0 +1,61 @@
+.first-page {
+  background-image: url(../images/Mainpage.png);
+  background-position: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  .wrapper {
+    @include vertical-align;
+    h1 {
+      padding: 3.2rem 0 3.2rem 0;
+      font-size: 2.5rem;
+      font-weight: normal;
+      letter-spacing: 0.8rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 7px;
+    }
+    .button {
+      cursor: pointer;
+      font-size: 0.75rem;
+      background: white;
+      color: black;
+      display: inline-block;
+      margin: auto;
+      padding: 0.6rem 3.45rem 0.6rem 3.45rem;
+      transition-duration: 0.2s;
+      @include noselect;
+      &:hover {
+        background: darken(white, 7);
+        transition-duration: 0.2s;
+      }
+      &:active,
+      &:focus {
+        background: darken(white, 16);
+      }
+    }
+  }
+}
+
+.container {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  width: 75vw;
+  margin: auto;
+  padding-top: 15vh;
+  margin-top: -10vh;
+  z-index: 1;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  padding: 10px 0px;
+  width: 150px;
+  margin: 5px;
+  border: solid 1px white;
+  border-radius: 8px;
+}
