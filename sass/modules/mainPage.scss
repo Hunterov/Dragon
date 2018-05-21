@@ -59,3 +59,14 @@ button {
   border: solid 1px white;
   border-radius: 8px;
 }
+
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'PT Sans Narrow';
+  font-size: 1.5rem;
+}
