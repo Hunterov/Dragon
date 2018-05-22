@@ -15,12 +15,23 @@
     p {
       font-size: 0.8rem;
       margin-bottom: 7px;
+      font-family: Quicksand;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      color: #ffffff;
+    }
+    .p1 {
+      font-size: 2rem;
+    }
+    .p2 {
+      font-size: 1.3rem;
+      margin-top: -0.6rem;
     }
     .button {
       cursor: pointer;
       font-size: 0.75rem;
       background: white;
-      color: black;
+      color: white;
       display: inline-block;
       margin: auto;
       padding: 0.6rem 3.45rem 0.6rem 3.45rem;
@@ -69,4 +80,7 @@ h2 {
   color: #ffffff;
   font-family: 'PT Sans Narrow';
   font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin-top: -0.3rem;
 }
